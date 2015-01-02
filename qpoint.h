@@ -19,8 +19,6 @@ private:
     int _y;
 };
 
-Q_DECLARE_METATYPE(QSharedPointer<QPoint>)
-
 QDebug operator<<(QDebug dbg, const QPoint &point);
 
 #endif // QPOINT_H

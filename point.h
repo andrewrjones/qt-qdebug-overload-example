@@ -7,10 +7,6 @@
 class Point
 {
 public:
-    Point();
-    Point(const Point &other);
-    ~Point();
-
     Point(const int &x, const int &y);
 
     int x() const;
@@ -20,8 +16,6 @@ private:
     int _x;
     int _y;
 };
-
-Q_DECLARE_METATYPE(Point)
 
 QDebug operator<<(QDebug dbg, const Point &point);
 
