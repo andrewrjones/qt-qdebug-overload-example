@@ -16,9 +16,11 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp \
-    point.cpp
+    point.cpp \
+    qpoint.cpp
 
 !host_build:QMAKE_MAC_SDK = macosx10.9
 
 HEADERS += \
-    point.h
+    point.h \
+    qpoint.h
